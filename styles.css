@@ -1,0 +1,350 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #f4f4f4;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #33b5e5;
+  color: white;
+  padding: 10px 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 60px;
+  height: auto;
+  margin-right: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background-image: url('https://grimescrubbers.com/wp-content/uploads/2019/02/Choosing-a-Commercial-Cleaning-Company-in-Springfield-Missouri.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+}
+
+.cta-btn {
+  background-color: white;
+  color: #33b5e5;
+  padding: 10px 20px;
+  margin-top: 15px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  padding: 40px 0;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.white-section {
+  background-color: white;
+}
+
+.service-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.service-card {
+  background-color: #33b5e5;
+  color: white;
+  padding: 30px;
+  width: 220px;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  background-color: #1ca8dd;
+}
+
+.contact-details {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.contact-details a {
+  color: #33b5e5;
+  font-weight: bold;
+  text-decoration: none;
+  display: block;
+  margin-top: 5px;
+}
+
+footer {
+  background-color: #33b5e5;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* New Intro Section */
+.intro-section {
+  background-image: url('https://grimescrubbers.com/wp-content/uploads/2019/02/Choosing-a-Commercial-Cleaning-Company-in-Springfield-Missouri.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: white;
+  text-align: center;
+}
+
+.intro-section .overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.intro-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.intro-section p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .service-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .contact-bar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero {
+    height: 70vh;
+  }
+
+  .overlay h2 {
+    font-size: 2rem;
+  }
+}
+#home-cleaning {
+  background-image: url('https://www.classaclean.com/wp-content/uploads/2023/02/mixed-race-janitors-doing-spring-cleaning-of-house-2021-12-09-06-24-26-utc-scaled.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+  color: white;
+  text-align: center;
+}
+
+#home-cleaning h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+#home-cleaning p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+#home-cleaning ul {
+  list-style-type: none;
+  margin-bottom: 30px;
+}
+
+#home-cleaning ul li {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+#hotel-cleaning {
+  background-image: url('https://koala.sh/api/image/v2-5rhjw-gofi5.jpg?width=1344&height=768&dream');
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+  color: white;
+  text-align: center;
+}
+
+#hotel-cleaning h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+#hotel-cleaning p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+#hotel-cleaning ul {
+  list-style-type: none;
+  margin-bottom: 30px;
+}
+
+#hotel-cleaning ul li {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+#office-cleaning {
+  background-image: url('https://finalcleaningjanitorial.com/wp-content/uploads/2020/10/Office-Cleaning.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+#office-cleaning::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4); /* Light black overlay */
+  z-index: 1;
+}
+
+#office-cleaning .container {
+  position: relative;
+  z-index: 2;
+}
+
+#office-cleaning h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+#office-cleaning p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+#office-cleaning ul {
+  list-style-type: none;
+  margin-bottom: 30px;
+  padding: 0;
+}
+
+#office-cleaning ul li {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+#after-party-cleaning {
+  background-image: url('https://hellocleaners.co.uk/wp-content/uploads/2021/08/Hello-cleaners-After-party-cleaning-1024x576.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+#after-party-cleaning::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4); /* Light black overlay */
+  z-index: 1;
+}
+
+#after-party-cleaning .container {
+  position: relative;
+  z-index: 2;
+}
+
+#after-party-cleaning h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+#after-party-cleaning p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+#after-party-cleaning ul {
+  list-style-type: none;
+  margin-bottom: 30px;
+  padding: 0;
+}
+
+#after-party-cleaning ul li {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+
